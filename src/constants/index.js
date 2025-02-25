@@ -23,6 +23,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  ecom,
+  chatapp,
+  careerconnect,
+  aws,
+  postman,
+  kubernetes,
+  mysql,
+  jenkins
 } from "../assets";
 
 export const navLinks = [
@@ -38,6 +46,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "resume",
+    title: "Download Resume"
+  }
 ];
 
 const services = [
@@ -46,7 +58,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +66,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "DevOps",
     icon: creator,
   },
 ];
@@ -72,10 +84,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -96,75 +108,82 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "aws",
+    icon: aws,
+  },
+  {
+    name: "postman",
+    icon: postman,
+  },
+  {
+    name: "kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "mysql",
+    icon: mysql,
+  },
+  // {
+  //   name: "jenkins",
+  //   icon: jenkins,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Engineer Intern",
+    company_name: "Sify Technologies Limited",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "February 2023 – May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed interactive web applications using the MERN stack, boosting user engagement and page load times by 30%.",
+      "Optimized SQL queries for CRUD operations, enhancing database response time by 35% and improving API efficiency.",
+      "Automated infrastructure tasks using Python, reducing manual workload by 50% and improving system uptime by 20%.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "DevOps and API Automation Engineer Trainee",
+    company_name: "Sify Technologies Limited",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Jul 2023- Sep 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed robust CI/CD pipelines, saving 5+ hours per week in manual deployment efforts.",
+      "Enhanced DevSecOps by integrating security checks, leading to 20% faster software deployment cycles.",
+      "Implemented AppDynamics for full-stack observability, accelerating bottleneck identification and resolution by 2x.",
+      "Deployed the CFX application using Kubernetes, ensuring 99.9% uptime, high availability, auto-scaling, and seamless container orchestration.",
+    ],
+  },
+  {
+    title: "API Automation Engineer",
+    company_name: "Sify Technologies Limited",
+    icon: shopify ,
+    iconBg: "#383E56",
+    date: "Jul 2023- Present",
+    points: [
+      "Developed and maintained automated test scripts using Java, Python, and JavaScript, achieving 98% test case accuracy.",
+      "Designed and implemented API testing frameworks using Rest Assured, reducing test execution time by 35%.",
+      "Integrated API tests into CI/CD pipelines, cutting deployment time by 40% and minimizing manual testing efforts.",
+      "Automated dynamic data input from Excel, enhancing debugging and error tracking by 40%.",
+      "Created data analysis scripts, reducing manual data processing by 30% through Excel automation.",
     ],
   },
 ];
@@ -198,9 +217,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Real-Time Chat App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A feature-rich chat application supporting both private and group conversations, real-time messaging, user authentication, and media file sharing. Built with a scalable architecture, it ensures seamless communication using WebSockets.",
     tags: [
       {
         name: "react",
@@ -211,54 +230,106 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JWT Authentication",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "RESTful API",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: chatapp,
+    source_code_link: "https://github.com/Rubanrk004/Chat-Application",
   },
   {
-    name: "Job IT",
+    name: "E-Commerce Platform",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A fully functional e-commerce platform with product listings, secure authentication, integrated payment gateway, and an admin dashboard for managing products and orders. Designed to provide a smooth shopping experience for users and efficient order management for administrators.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
+        name: "express",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JWT Authentication",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "RESTful API",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ecom,
+    source_code_link: "https://github.com/Rubanrk004/E-Commerce-Platform",
+  },
+  {
+    name: "Career Connect Platform",
+    description:
+      "A job search and recruitment platform enabling companies to post job listings while allowing candidates to apply, upload resumes, and track applications. Features include role-based authentication and a streamlined hiring workflow.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JWT Authentication",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "RESTful API",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: careerconnect,
+    source_code_link: "https://github.com/Rubanrk004/Career-Connect-Platform",
   },
 ];
 

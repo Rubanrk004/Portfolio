@@ -29,6 +29,15 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ecom from "./ecom.png";
+import careerconnect from "./careerconnect.png";
+import chatapp from "./chatapp.png";
+import aws from "./tech/aws.png";
+import postman from "./tech/postman.png";
+import kubernetes from "./tech/kubernetes.png";
+import mysql from "./tech/mysql.png";
+import jenkins from "./tech/jenkins.png";
+
 
 export {
   logo,
@@ -59,4 +68,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  chatapp,
+  ecom,
+  careerconnect,
+  aws,postman,
+  mysql,jenkins,kubernetes
 };
+
