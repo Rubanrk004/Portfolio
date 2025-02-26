@@ -28,7 +28,7 @@ import {
   careerconnect,
   aws,
   postman,
-  kubernetes,
+  Kubernetes,
   mysql,
   jenkins
 } from "../assets";
@@ -133,8 +133,8 @@ const technologies = [
     icon: postman,
   },
   {
-    name: "kubernetes",
-    icon: kubernetes,
+    name: "Kubernetes",
+    icon: Kubernetes,
   },
   {
     name: "mysql",

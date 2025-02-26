@@ -34,7 +34,7 @@ import careerconnect from "./careerconnect.png";
 import chatapp from "./chatapp.png";
 import aws from "./tech/aws.png";
 import postman from "./tech/postman.png";
-import kubernetes from "./tech/kubernetes.png";
+import Kubernetes from "./tech/Kubernetes.png";
 import mysql from "./tech/mysql.png";
 import jenkins from "./tech/jenkins.png";
 
@@ -72,6 +72,6 @@ export {
   ecom,
   careerconnect,
   aws,postman,
-  mysql,jenkins,kubernetes
+  mysql,jenkins,Kubernetes
 };
 
